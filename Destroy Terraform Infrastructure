@@ -1,0 +1,4 @@
+#!/bin/bash 
+cd /path/to/terraform/code 
+terraform destroy -auto-approve 
+echo "Terraform infrastructure destroyed."
